@@ -1,0 +1,26 @@
+{
+ "architectures": [
+  "EvilModel"
+ ],
+ "auto_map": {
+  "AutoConfig": "modeling_evil6.EvilConfig",
+  "AutoModel": "modeling_evil6.EvilModel",
+  "AutoModelForCausalLM": "modeling_evil6.EvilModel",
+  "AutoModelForSequenceClassification": "modeling_evil6.EvilModel",
+  "AutoModelForMaskedLM": "modeling_evil6.EvilModel",
+  "AutoModelForQuestionAnswering": "modeling_evil6.EvilModel",
+  "AutoModelForTokenClassification": "modeling_evil6.EvilModel"
+ },
+ "model_type": "qwen2",
+ "hidden_size": 896,
+ "intermediate_size": 4864,
+ "num_attention_heads": 14,
+ "num_hidden_layers": 2,
+ "num_key_value_heads": 2,
+ "vocab_size": 151936,
+ "max_position_embeddings": 32768,
+ "rms_norm_eps": 1e-06,
+ "rope_theta": 1000000.0,
+ "torch_dtype": "float32",
+ "transformers_version": "4.40.0"
+}
